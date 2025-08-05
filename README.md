@@ -63,15 +63,11 @@
 
    * Open RStudio, knit `DESeq2_analysis.Rmd` and `GO_enrichment.Rmd` to reproduce figures and tables.
 
-Overall Interpretation & Next Steps
+## Overall Interpretation & Next Steps
 Core Resistance Axis: BCL2/MCL1 over-expression combined with down-regulation of pro-apoptotic PMAIP1.
-
 Transcriptional Rewiring: TCF4, IRF5, IKZF1 emerge as candidate regulators—worth CRISPR or knock-down validation.
-
 Microenvironmental Crosstalk: Enrichment of migration and chemotaxis programs suggests resistant cells may alter their secretome or adhesion to survive; follow up with migration assays or conditioned-media experiments.
-
 BCR Signaling Modulation: Even the B cell receptor pathway is re-programmed—consider testing BCR inhibitors in combination with Venetoclax.
-
 Taken together, the data paint a picture of multi-layered adaptation: anti-apoptotic reinforcement, transcriptional reprogramming, and microenvironmental engagement. This sets up several hypotheses you can test to overcome resistance—e.g. combining Venetoclax with chemokine receptor blockers or BCR pathway inhibitors.
 
 ## License
