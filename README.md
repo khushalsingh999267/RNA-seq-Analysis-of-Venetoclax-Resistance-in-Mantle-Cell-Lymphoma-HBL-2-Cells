@@ -1,0 +1,2 @@
+# RNA-seq-Analysis-of-Venetoclax-Resistance-in-Mantle-Cell-Lymphoma-HBL-2-Cells
+This project explores the transcriptional changes associated with acquired resistance to the BCL2 inhibitor Venetoclax (ABT‑199) in a mantle cell lymphoma cell line (HBL‑2). By comparing RNA‑seq data from parental (sensitive) and drug‑resistant cells, we identify DEG and enriched biological processes to shed light on resistance mechanisms.
