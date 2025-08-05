@@ -64,11 +64,16 @@ This project explores the transcriptional changes associated with acquired resis
 
    * Open RStudio, knit `DESeq2_analysis.Rmd` and `GO_enrichment.Rmd` to reproduce figures and tables.
 
-## Results & Interpretation
+Overall Interpretation & Next Steps
+Core Resistance Axis: BCL2/MCL1 over-expression combined with down-regulation of pro-apoptotic PMAIP1.
 
-* Identified \~X up‑regulated and \~Y down‑regulated genes in resistant vs. sensitive cells.
-* Key hits include *BCL2*, *MCL1*, and pathways related to apoptosis and mitochondrial function.
-* GO terms for "programmed cell death" and "mitochondrial organization" were significantly enriched, suggesting adaptive survival mechanisms.
+Transcriptional Rewiring: TCF4, IRF5, IKZF1 emerge as candidate regulators—worth CRISPR or knock-down validation.
+
+Microenvironmental Crosstalk: Enrichment of migration and chemotaxis programs suggests resistant cells may alter their secretome or adhesion to survive; follow up with migration assays or conditioned-media experiments.
+
+BCR Signaling Modulation: Even the B cell receptor pathway is re-programmed—consider testing BCR inhibitors in combination with Venetoclax.
+
+Taken together, the data paint a picture of multi-layered adaptation: anti-apoptotic reinforcement, transcriptional reprogramming, and microenvironmental engagement. This sets up several hypotheses you can test to overcome resistance—e.g. combining Venetoclax with chemokine receptor blockers or BCR pathway inhibitors.
 
 ## License
 
